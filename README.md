@@ -1,6 +1,7 @@
 Dos Cuisine — Restaurant Website
 
 Overview
+
 Dos Cuisine is a responsive restaurant website designed to showcase the restaurant's offerings, story, and contact information. It features a clean, modern dark theme with gold accents to match the brand’s aesthetic. The website has three main pages: Home, About Us, and Contact Us.
 
 Design Choices
