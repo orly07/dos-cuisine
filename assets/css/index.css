@@ -1,9 +1,9 @@
 html,
 body {
   background-color: #050608 !important;
-  color: white !important;
+  color: #ffffff !important;
   box-sizing: border-box;
-  border-color: white !important;
+  border-color: #ffffff !important;
   scroll-behavior: smooth;
 }
 
@@ -49,7 +49,7 @@ body {
 
 .hero-section .hero-content .reserve-btn {
   border: none;
-  color: white;
+  color: #ffffff;
   padding: 8px 25px !important;
   background-color: #cf9749 !important;
   transition: background-color 0.2s ease;
@@ -74,7 +74,7 @@ body {
 
 .intro-container .learn-btn {
   border: none;
-  color: white;
+  color: #ffffff;
   padding: 8px 25px !important;
   background-color: #cf9749 !important;
   transition: background-color 0.2s ease;

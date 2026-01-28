@@ -1,9 +1,9 @@
 html,
 body {
   background-color: #050608 !important;
-  color: white !important;
+  color: #ffffff !important;
   box-sizing: border-box;
-  border-color: white !important;
+  border-color: #ffffff !important;
   scroll-behavior: smooth;
 }
 
