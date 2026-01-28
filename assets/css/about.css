@@ -1,0 +1,41 @@
+html,
+body {
+  background-color: #050608;
+  color: white;
+  box-sizing: border-box;
+  border-color: white !important;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 768px) {
+  .navbar .navbar-collapse {
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 1rem;
+    margin-top: 1rem;
+  }
+}
+
+.navbar .container-fluid .logo {
+  width: 70px;
+  height: auto;
+}
+
+.navbar .container-fluid .navbar-brand {
+  transition: all 0.2s ease;
+}
+
+.navbar .container-fluid .navbar-brand:hover {
+  color: #cf9749 !important;
+}
+
+.navbar-nav .nav-item .active {
+  color: #cf9749 !important;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #cf9749 !important;
+}
