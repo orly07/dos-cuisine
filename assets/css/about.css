@@ -1,7 +1,7 @@
 html,
 body {
-  background-color: #050608;
-  color: white;
+  background-color: #050608 !important;
+  color: white !important;
   box-sizing: border-box;
   border-color: white !important;
   scroll-behavior: smooth;
@@ -38,4 +38,22 @@ body {
 
 .navbar-nav .nav-item .nav-link:hover {
   color: #cf9749 !important;
+}
+
+/* MISSION */
+.card {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  border: 1px solid rgb(48, 48, 48) !important;
+  color: #ffffff !important;
+  text-align: center;
+}
+
+.card .img-container {
+  height: 200px;
+  width: 100%;
+}
+.card .img-container .card-img-top {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }

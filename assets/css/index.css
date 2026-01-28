@@ -1,7 +1,7 @@
 html,
 body {
-  background-color: #050608;
-  color: white;
+  background-color: #050608 !important;
+  color: white !important;
   box-sizing: border-box;
   border-color: white !important;
   scroll-behavior: smooth;
