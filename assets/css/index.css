@@ -4,6 +4,7 @@ body {
   color: white;
   box-sizing: border-box;
   border-color: white !important;
+  scroll-behavior: smooth;
 }
 
 .navbar {
@@ -61,4 +62,38 @@ body {
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+.intro-container .learn-btn {
+  border: none;
+  color: white;
+  padding: 8px 25px !important;
+  background-color: #cf9749 !important;
+  transition: background-color 0.2s ease;
+}
+
+.intro-container .learn-btn:hover {
+  background-color: #ac711f !important;
+}
+
+/* FEATURED SECTION */
+.featured-section .card {
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 1px solid rgb(48, 48, 48);
+  color: #ffffff;
+  text-align: center;
+}
+
+.featured-section .card .img-container {
+  height: 200px;
+  width: 100%;
+}
+.featured-section .card .img-container .card-img-top {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.featured-section .card .star-container .bi {
+  color: #cf9749;
 }
